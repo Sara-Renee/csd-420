@@ -1,0 +1,55 @@
+/* Sara White - CSD-420 - Assignment 7.2 */
+
+/* I wanted to experiment with gradients, so the white circle has
+light gray added for depth */
+
+
+.whiteCircle {
+        -fx-fill: radial-gradient(
+        center 50% 50%,
+        radius 50%,
+        white,
+	lightgray);
+        -fx-stroke: black;
+	-fx-stroke-width: 4;
+}
+
+.paneBorder {
+	-fx-border-color: red;
+	-fx-border-width: 10;
+}
+
+#blueCircle {
+	-fx-fill: radial-gradient(
+        center 50% 50%,
+        radius 50%,
+        blue,
+	darkblue);
+}
+
+#greenCircle {
+	-fx-fill: radial-gradient(
+        center 50% 50%,
+        radius 50%,
+        green,
+	darkgreen);
+}
+
+#pinkCircle {
+	-fx-fill: radial-gradient(
+        center 50% 50%,
+        radius 50%,
+        pink,
+	deeppink);
+}
+
+#yellowCircle {
+	-fx-fill: radial-gradient(
+        center 50% 50%,
+        radius 50%,
+        yellow,
+	goldenrod);
+}
+
+
+
